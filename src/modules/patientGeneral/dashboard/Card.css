@@ -1,0 +1,219 @@
+.card__main {
+  width: 315px;
+  height: 238px;
+  margin: 20px 20px 20px 22px;
+  padding: 0 0 24px;
+  border-radius: 2px;
+  border: solid 1px #d4d4d4;
+  background-color: #ffffff;
+
+  flex-flow: row wrap;
+  
+}
+
+
+.card__main__highlight {
+  width: 315px;
+  height: 238px;
+  margin: 20px 20px 20px 22px;
+  padding: 0 0 24px;
+  border-radius: 2px;
+  border: solid 1px #d4d4d4;
+  background-color: #ffffff;
+  color: #ffffff;
+
+  flex-flow: row wrap;
+  background-color: #3399ff;
+}
+.card__data {
+  width: 279px;
+  height: 42px;
+  margin: 2px 94px 1px 24px; 
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1f1e1d;
+  
+  
+  
+}
+.card__data_genaral_p_s {
+  width: 279px;
+  height: 42px;
+  margin: -3px 94px 1px 24px; 
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fdfcfb;
+  
+  
+  
+}
+.card__data_genaral_p_s_no_highlight {
+  width: 279px;
+  height: 42px;
+  margin: -3px 94px 1px 24px; 
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0c0c0c;
+  
+  
+  
+}
+
+
+
+
+.card__img img {
+  width: 314px;
+  height: 171px;
+  margin: 0 0 20px; 
+
+
+}
+
+.MuiButton-outlinedSizeSmall {
+  padding: 3px 9px;
+  font-size: 0.8125rem;
+  float: right;
+}
+@media screen and (max-width:441px) {
+  .card__img img {
+    width: 300px;
+  }
+  .card__main {
+    width: 300px;
+  }
+   } 
+
+@media screen and (max-width:480px) and (min-width:351px){
+  .card__data {
+    width: 385px;
+    margin: 1px 94px 1px 12px; 
+
+  }
+  .card__data_genaral_p_s_no_highlight {
+    width: 385px;
+    margin: 1px 94px 1px 12px; 
+
+  }
+  .card__data_genaral_p_s {
+    width: 385px;
+    margin: -1px 94px 1px 12px; 
+
+  }
+
+}
+@media screen and (max-width:600px) and (min-width:481px){
+  .card__data {
+    width: 297px;
+    margin: 10px 94px 1px 12px; 
+
+  }
+  .card__data_genaral_p_s_no_highlight {
+    width: 297px;
+    margin: 10px 94px 1px 12px; 
+
+  }
+  .card__data_genaral_p_s {
+    width: 297px;
+    margin: 10px 94px 1px 12px; 
+
+  }
+
+}
+@media screen and (max-width:350px){
+  .card__data {
+    width: 390px;
+    margin: 1px 94px 1px 9px; 
+
+  }
+  .card__data_genaral_p_s {
+    width: 390px;
+    margin: 1px 94px 1px 9px; 
+
+  }
+  .card__data_genaral_p_s_no_highlight {
+    width: 390px;
+    margin: 1px 94px 1px 9px; 
+
+  }
+
+}
+  
+  
+ @media screen and (max-width:1024px) and (min-width:770px) {
+  .card__img img {
+    width: 321px;
+    height: 163px !important;
+  }
+  .card__data {
+   
+    margin: -2px 94px 1px 25px; 
+    font-size: 16px;
+  }
+  .card__data_genaral_p_s_no_highlight {
+   
+    margin: -2px 94px 1px 25px; 
+    font-size: 16px;
+  }
+  .card__data_genaral_p_s {
+   
+    margin: -7px 94px 1px 25px; 
+    font-size: 16px;
+  }
+  .card__main {
+    width: 322px;
+    height: 225px;
+    
+  }
+
+  }
+
+  
+  @media screen and (max-width:769px) and (min-width:601px) {
+    .card__img img {
+      width: 265px;
+      height: 163px !important;
+    }
+    .card__main {
+      width: 265px;
+      height: 220px;
+    }
+    .card__main__highlight {
+      width: 265px;
+    }
+    .card__data {
+      width: 180px;
+      font-size: 13px;
+      margin: -2px 94px 1px 20px; 
+    }
+    .card__data_genaral_p_s_no_highlight {
+      width: 180px;
+      font-size: 13px;
+      margin: -2px 94px 1px 20px; 
+    }
+    .card__data_genaral_p_s{
+      width: 180px;
+      font-size: 13px;
+      margin: -7px 94px 1px 20px; 
+    }
+    
+  
+  }
+  
+
+  

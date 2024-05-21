@@ -1,0 +1,256 @@
+.surgery__main {
+    width: 650px;
+    align-items: center;
+}
+
+.surgery__heading {
+    margin-bottom: 5px;
+}
+
+.surgery__details {
+    width: 650px;
+    height: 118px;
+    margin: 7px 293px 57px 34px;
+    padding: 17px 30px 15px 21px;
+    border-radius: 2px;
+    border: solid 1px #d4d4d4;
+    background-color: #ffffff;
+
+
+}
+.row_mobile{
+    width:103%;
+    margin-left: 0%;
+
+}
+
+.left__section{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.right__section {
+    flex: 1;
+}
+
+.img__section img {
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 10px;
+    
+}
+.img__section_SM {
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 10px;
+    
+}
+@media screen and (max-width:480px) and (min-width:351px) {
+    .img__section img {
+        width: 40px;
+        border-radius: 50%;
+        
+    }
+    .img__section_SM {
+        width: 40px;
+        border-radius: 50%;
+        
+    }
+    .row_mobile {
+        width: 93%;
+        margin-left: 4% !important;
+    
+    }
+}
+@media screen and (max-width:1240px) and (min-width:1205px){
+    
+    .row_mobile {
+        width: 90% !important;
+        margin-left: 0% !important;
+    
+    }
+}
+@media screen and (max-width:1204px) and (min-width:1025px){
+    
+    .row_mobile {
+        width: 93% !important;
+        margin-left: 0% !important;
+    
+    }
+}
+@media screen and (max-width:1024px) and (min-width:955px){
+    
+    .row_mobile {
+        width: 89% !important;
+        margin-left: 0% !important;
+    
+    }
+}
+@media screen and (max-width:955px) and (min-width:770px){
+    
+    .row_mobile {
+        width: 96% !important;
+        margin-left: 0% !important;
+    
+    }
+}
+@media screen and (max-width:600px) and (min-width:481px){
+    
+    .row_mobile {
+        width: 95%;
+        margin-left: 3% !important;
+    
+    }
+}
+@media screen and (max-width:350px) {
+    
+    .row_mobile {
+        width: 100%;
+        margin-left: 0% !important;
+    
+    }
+    .img__section_SM {
+       margin-left: 0px;
+        
+    }
+}
+
+.left__section {
+    display: flex;
+   /* justify-content: space-between;*/
+    
+    width: max-content; 
+    
+    
+}
+
+.img__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .data__section h2 {
+  font-size: 14px;
+  margin-bottom: 3px; 
+}
+.data__section p {
+  font-size: 14px;
+  margin-bottom: 3px;
+} */
+.right__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .no__box {
+  height: 40px;
+  width: 40px;
+  background-color: #ff462c;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+} */
+
+@media screen and (max-width: 900px) {
+
+
+    .surgery__main {
+        width: 100%;
+
+    }
+
+    .surgery__details {
+        display: flex;
+        padding: 10px;
+        border: 2px solid lightgray;
+        border-radius: 5px;
+        /*margin-left: "34px";*/
+        flex-wrap: wrap;
+        vertical-align: bottom;
+    }
+
+    .right__section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .data__section h2 {
+        font-size: 14px;
+        margin-bottom: 3px;
+    }
+
+    .data__section p {
+        font-size: 14px;
+        margin-bottom: 3px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .surgery__main {
+        margin-top: 70px;
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .surgery__main {
+        margin-right: 30px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .surgery__main {
+        width: 400px !important;
+        height: 118px;
+        margin-left: 4px;
+    }
+
+}
+
+
+@media screen and (max-width: 480px) {
+    .surgery__details {
+        /* margin-left:10px; */
+        margin-left: 10px !important;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .surgery__details {
+        padding: 0px !important;
+    }
+
+}
+
+
+.p-10px {
+    padding: 10px;
+}
+
+.border-1px-lightgray {
+    border: 1px solid lightgray;
+}
+.margin-3px {
+    margin: 3px;
+}
+.br-2px{
+    border-radius: 2px;
+}
+
+
+@media screen and (max-width:1200px){
+    .upcomming_meeting{
+        margin-top: 15px !important;
+    }
+
+}

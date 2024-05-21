@@ -1,0 +1,18 @@
+.right__section button {
+  width: 100px;
+  height: 30px;
+  font-size: 13px;
+  color: white;
+  background-color: #00a0f0;
+  border: 0ch;
+  border-radius: 5px;
+}
+.calander {
+  width: 80px;
+  height: 80px;
+  margin: 0 16px 0 0;
+  padding: 23px 22px 22px 23px;
+  border: solid 1px #d4d4d4;
+  background-color: #ffffff;
+}
+

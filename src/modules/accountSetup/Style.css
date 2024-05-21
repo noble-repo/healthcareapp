@@ -1,0 +1,14 @@
+.color {
+    color: "#00a0f0" 
+}
+hr.divider {
+    border-top:0.1px solid #bbb;
+    width:85%;
+}
+@media (max-width:1000px){
+    hr.divider {
+        border-top: 0.1px solid #bbb;
+        margin-top:2px;
+        width:80%
+      }
+}

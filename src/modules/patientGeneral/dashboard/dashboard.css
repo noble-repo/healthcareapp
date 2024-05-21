@@ -1,0 +1,120 @@
+.main__container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left:40px;
+}
+.surgery__details {
+  display: "flex";
+  padding: "10px";
+  border: "1px solid lightgray";
+  border-radius: "5px";
+  margin-left: "34px";
+}
+.meetings__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: wrap;
+}
+.survey__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.survey__heading {
+  width: 87%;
+  height: 21px;
+  
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #26292c;
+}
+.survey__heading h3 {
+  margin-bottom: 10px;
+}
+.survay__details {
+  width: 87%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+.surgery__details {
+  display: flex;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px; 
+  margin-left: 34px;
+
+ }
+ .surgery__main {
+  width: 650px;
+} 
+.surgery__heading {
+  margin-bottom: 5px;
+} 
+@media screen and (max-width:441px) {
+  .surgery__main {
+    width: 420px;
+  } 
+    
+  } 
+ @media screen and (max-width:900px) {
+
+  
+  .surgery__main {
+    width: 100%;
+    
+  } 
+  .surgery__heading {
+    margin-bottom: 5px;
+    flex-wrap: wrap;
+  } 
+   /* .surgery__details {
+    width: "650px";
+    height: "118px";
+    display: "flex";
+    padding: "8px";
+    border: "1px solid lightgray";
+    border-radius: "5px";
+    margin-left: "34px";
+   flex-wrap: wrap;
+   vertical-align: bottom;
+   } */
+   /* .data__section h2 {
+    font-size: 14px;
+    margin-bottom: 3px; 
+  }
+  .data__section p {
+    font-size: 14px;
+    margin-bottom: 3px;
+  } */
+  .right__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+}
+
+@media screen and (max-width:441px) {
+  .surgery__main {
+    width: 420px;
+  } 
+    
+} 
+@media screen and (max-width:441px) {
+    .surgery__details {
+      margin-left: 4px;
+    } 
+      
+    } 

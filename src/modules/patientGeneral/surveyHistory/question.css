@@ -1,0 +1,11 @@
+.uploadview{
+    margin-bottom: 10px;
+    
+}
+@media screen and (max-width:1024px) {
+    .uploadview{
+        margin-bottom: 60px;
+        
+    }
+    
+}
